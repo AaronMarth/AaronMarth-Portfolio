@@ -1,0 +1,26 @@
+@import 'variables';
+
+.about {
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.about-header {
+    display: flex;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 1.25rem;
+    text-align: center;
+}

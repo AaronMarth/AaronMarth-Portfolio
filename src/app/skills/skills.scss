@@ -1,0 +1,25 @@
+@import 'variables';
+
+.skills-container {
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4rem;
+    margin: 4rem;
+
+    .chip {
+        margin: 0.25rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.skills-text {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1.5rem;
+}
+

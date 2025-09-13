@@ -1,0 +1,11 @@
+<span class="section-title" [style.fontSize]="`${fontSize()}rem`">
+    @if (icon()) {
+        <span>
+            <ng-container *ngTemplateOutlet="icon()"/>
+        </span>
+    }
+    <span>
+        {{ name() }}
+    </span>
+    
+</span>

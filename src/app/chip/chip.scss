@@ -1,0 +1,15 @@
+@import 'variables';
+
+.chip {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  border-radius: 16px;
+  background-color: $surface;
+  border-style: solid;
+  border-color: $emphasis;
+  border-width: 1px;
+  color: $emphasis;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  white-space: nowrap;
+}
