@@ -2,10 +2,14 @@
 
 .section-title {
     display: flex;
-    padding-bottom: 1em;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
     span {
         height: 100%;
     }
+}
+
+.icon {
+    padding-right: 8px;
 }

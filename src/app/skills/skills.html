@@ -4,14 +4,21 @@
 
 
 <span>
-    <span>
-        <app-section-header [name]="'SKILLS'" [icon]=SkillsIcon [fontSize]="2"/>
+    <span id="skills_div">
+        <app-section-header id="skills" [name]="'SKILLS'" [icon]=SkillsIcon [fontSize]="2"/>
     </span>
     <!-- make list of strings in typescript -->
      <span class="skills-container">
-        <app-section-header [name]="'LANGUAGES: '" [fontSize]="1.25" class="skills-text"/>
+        <app-section-header [name]="'LANGUAGES: '" [fontSize]="1.5" class="skills-text"/>
         @for (skill of skills; track $index) {
             <app-chip [text]=skill  class="chip"/>
+        }
+     </span>
+
+     <span class="skills-container">
+        <app-section-header [name]="'MISCELLANEOUS: '" [fontSize]="1.5" class="skills-text"/>
+        @for (tool of miscellaneous; track $index) {
+            <app-chip [text]=tool  class="chip"/>
         }
      </span>
 </span>

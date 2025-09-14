@@ -1,0 +1,27 @@
+<div id="skills" class="project-section">
+    @for (project of projects(); track $index) {
+        <span class="project">
+            <span class="project-images">
+                <img [src]=project.image alt="Project image"/>
+            </span>
+            
+            <div class="project-text">
+                <span class="project-name">
+                    {{ project.name }}
+                </span>
+                <br>
+                <span class="project-tech-stack">
+                    Made with: @for (tech of project.madeWith; track $index) {
+                        <app-chip [text]=tech class="tech-chip"/>
+                    }
+                </span>
+                <br>
+                <span class="project-description">
+                    {{ project.description }}
+                </span>
+            </div>
+            
+        </span>
+    }
+
+</div>

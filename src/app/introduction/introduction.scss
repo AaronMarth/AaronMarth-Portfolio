@@ -17,6 +17,6 @@
         border-radius: 50%;
         border: 0.25rem solid $emphasis;
         margin: 1rem;
-        
+        -webkit-user-drag: none;
     }
 }

@@ -18,9 +18,14 @@ export class Skills {
       "Batch Scripting", 
       "C", 
       "PHP", 
-      "Java",
-      "GitLab CI/CD",
-      "Playwright"
+      "Java"
+  ]
+
+  protected readonly miscellaneous = [
+    "CI/CD",
+    "Playwright",
+    "Git",
+    "Agile Methodologies",
   ]
 
 }
