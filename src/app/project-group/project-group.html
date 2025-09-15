@@ -4,22 +4,24 @@
             <img [src]=project()?.image alt="Project image"/>
         </span>
         
-        <div class="project-text">
-            <span class="project-name">
-                {{ project()?.name }}
-            </span>
-            <br>
-            <span class="project-tech-stack">
-                Made with: @for (tech of project()?.madeWith; track $index) {
-                    <app-chip [text]=tech class="tech-chip"/>
-                }
-            </span>
-            <br>
-            <span class="project-description">
-                {{ project()?.description }}
-            </span>
+        <div class="project-parent">
+            <div class="project-child">
+                <span class="project-name">
+                    {{ project()?.name }}
+                </span>
+                <br>
+                <span class="project-tech-stack">
+                    Made with: @for (tech of project()?.madeWith; track $index) {
+                        <app-chip [text]=tech class="tech-chip"/>
+                    }
+                </span>
+                <br>
+                <span class="project-description">
+                    {{ project()?.description }}
+                </span>
             </div>
+        </div>
             
-        </span>
+    </span>
 
 </div>
