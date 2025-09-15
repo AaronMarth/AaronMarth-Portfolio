@@ -2,6 +2,13 @@ import { Component } from '@angular/core';
 import { SectionHeader } from '../section-header/section-header';
 import { ProjectGroup } from '../project-group/project-group';
 
+export interface Project {
+  name: string;
+  madeWith: string[];
+  description: string;
+  image: string;
+}
+
 @Component({
   selector: 'app-projects',
   imports: [SectionHeader, ProjectGroup],
@@ -9,7 +16,8 @@ import { ProjectGroup } from '../project-group/project-group';
   styleUrl: './projects.scss'
 })
 export class Projects {
-  public readonly projects = [
+  
+    projects: Project[] = [
     {
       name: "lorum",
       madeWith: ["lorum"],

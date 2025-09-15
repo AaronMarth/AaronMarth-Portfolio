@@ -18,9 +18,9 @@
 .about-content {
     display: flex;
     flex-direction: horizontal;
-    align-items: center;
+    align-self: flex-start;
     justify-content: center;
-    padding: 2rem;
+    padding: 0.5rem;
     font-size: 1.25rem;
     text-align: center;
 }

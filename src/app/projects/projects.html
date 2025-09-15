@@ -4,7 +4,10 @@
 
 <span id="projects_div" class="project">
     <span>
-        <app-section-header [name]="'PROJECTS'" [icon]=ProjectsIcon [fontSize]="2"/>
-        <!-- <app-project-group [projects]="projects" /> -->
+        <app-section-header [name]="'PROJECTS'" [icon]=ProjectsIcon [fontSize]="2.5"/>
+
+        @for (project of projects; track $index) {
+            <app-project-group [project]=project/>
+        }
     </span>
 </span>

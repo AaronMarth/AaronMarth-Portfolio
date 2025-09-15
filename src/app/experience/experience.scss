@@ -1,0 +1,24 @@
+@import 'variables';
+
+.experience-info {
+    padding-left: 2.5rem
+}
+
+.job-company {
+    font-weight: bold;
+    padding: 0rem;
+    margin: 0.25rem;
+    text-align: left;
+}
+
+.job-title {
+    margin: 0.25rem;
+    text-align: left;
+}
+
+.job-text {
+    display: inline-block;
+    margin: 0.25rem;
+    text-align: left;
+    margin-left: 3rem
+}
