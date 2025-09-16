@@ -27,6 +27,7 @@
 }
 
 .project-parent {
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,8 +42,14 @@
     font-size: 1.25rem;
 }
 
+.chip {
+        margin: 0.25rem;
+        align-items: center;
+        justify-content: center;
+    }
+
 .project-name {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 

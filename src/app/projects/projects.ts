@@ -19,10 +19,12 @@ export class Projects {
   
     projects: Project[] = [
     {
-      name: "lorum",
-      madeWith: ["lorum"],
-      description: "lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum",
-      image: "https://slp-statics.astockcdn.net/static_assets/staging/25spring/US_homepage/HP_storytelling_1439510772.jpg?width=580"
+      name: "StateCollege Bus",
+      madeWith: ["Swift", "SwiftUI", "Python", "FastAPI"],
+      description: "Appstore published IOS app that provides residents and visitors of State College with real-time updates on bus locations, arrival times, and service alerts for the CATA bus system. \
+      Created using SwiftUI for a pleasing interface and FastAPI for a fast and efficient backend. The backend is hosted on a Google Cloud VM providing reliable uptime to users. The app enables users to easily navigate the bus system,\
+       plan their trips, and stay informed about any changes or disruptions in service.",
+      image: "../StateCollegeBusIcon.png"
     }
   ]
 }
