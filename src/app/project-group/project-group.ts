@@ -7,6 +7,7 @@ interface Project {
   madeWith: string[];
   description: string;
   image: string;
+  link: string;
 }
 
 @Component({
@@ -17,4 +18,5 @@ interface Project {
 })
 export class ProjectGroup {
   public readonly project = input<Project>();
+  protected readonly window = window;
 }

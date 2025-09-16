@@ -20,11 +20,20 @@
 }
 
 .project-images {
+    display: inline-flex;
+    flex-direction: column;
+    
     img {
+        padding: 10px;
         max-height: 400px;
     }
     
 }
+
+.appstore {
+    cursor: pointer;
+}
+
 
 .project-parent {
     max-width: 50%;

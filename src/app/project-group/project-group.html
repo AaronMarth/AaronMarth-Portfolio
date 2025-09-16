@@ -1,13 +1,16 @@
+
 <div id="skills" class="project-section">
     <span class="project">
-        <span class="project-images">
+        <div class="project-images">
             <img [src]=project()?.image alt="Project image"/>
-        </span>
+            <img src="appstore.svg" alt="Download on the App Store" (click)="window.open(project()?.link)" class="appstore"/>
+        </div>
         
         <div class="project-parent">
             <div class="project-child">
                 <span class="project-name">
-                    {{ project()?.name }}
+                    {{ project()?.name }} 
+                    
                 </span>
                 <br>
                 <span class="project-tech-stack">
