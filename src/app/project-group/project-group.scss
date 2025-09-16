@@ -30,6 +30,15 @@
     
 }
 
+.project-photo {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    border: 0.25rem solid $emphasis;
+    margin: 1rem;
+    -webkit-user-drag: none;
+}
+
 .appstore {
     cursor: pointer;
 }
@@ -67,4 +76,8 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     align-items: center;
+}
+
+.project-description {
+    padding: 10px;
 }

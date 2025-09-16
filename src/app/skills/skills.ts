@@ -22,7 +22,7 @@ export class Skills {
   ]
 
   protected readonly miscellaneous = [
-    "CI/CD",
+    "Gitlab CI/CD",
     "Playwright",
     "Git",
     "Agile Methodologies",
